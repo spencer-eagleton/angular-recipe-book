@@ -11,6 +11,7 @@ import { RecipeDetailComponent } from './Recipes/recipe-detail/recipe-detail.com
 import { RecipeComponent } from './Recipes/recipe-list/recipe/recipe.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
 import { IngredientComponent } from './shopping-list/ingredient/ingredient.component';
+import {ShoppingListService} from "./shopping-list/shopping-list.service";
 
 
 
@@ -30,7 +31,7 @@ import { IngredientComponent } from './shopping-list/ingredient/ingredient.compo
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ShoppingListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

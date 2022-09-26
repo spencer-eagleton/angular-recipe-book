@@ -13,6 +13,7 @@ import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/sh
 import { IngredientComponent } from './shopping-list/ingredient/ingredient.component';
 import {ShoppingListService} from "./shopping-list/shopping-list.service";
 import {AppRoutingModule} from "./app-routing.module";
+import { RecipeStartComponent } from './Recipes/recipe-start/recipe-start.component';
 
 
 
@@ -27,6 +28,7 @@ import {AppRoutingModule} from "./app-routing.module";
     RecipeComponent,
     ShoppingListEditComponent,
     IngredientComponent,
+    RecipeStartComponent,
   ],
   imports: [
     BrowserModule,

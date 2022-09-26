@@ -7,8 +7,10 @@
 <div class="row">
   <ul class="list-group">
     <app-recipe
-      *ngFor="let recipeEl of recipes"
-      [recipe]="recipeEl"></app-recipe>
+      *ngFor="let recipeEl of recipes; let i = index"
+      [recipe]="recipeEl"
+      [index] = "i"
+    ></app-recipe>
   </ul>
 </div>
 

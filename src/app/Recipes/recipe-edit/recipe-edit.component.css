@@ -4,3 +4,7 @@
   justify-content: space-around;
   margin: 5px;
 }
+
+input.ng-invalid.ng-touched {
+  border: 2px dotted red;
+}

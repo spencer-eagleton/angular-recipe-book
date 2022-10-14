@@ -8,15 +8,8 @@
       <ul class="nav navbar-nav">
         <li routerLinkActive="active"><a routerLink="/recipes">Recipes</a></li>
         <li routerLinkActive="active"><a routerLink="/shopping-list">Shopping list</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a  class="dropdown-toggle" role="button">Manage</a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Save Data</a></li>
-            <li><a href="#">Fetch Data</a></li>
-          </ul>
-        </li>
+        <li><button type="button" href="#" (click)="onSaveData()">Save Data</button></li>
+        <li><button type="button" href="#" (click)="onFetchData()">Fetch Data</button></li>
       </ul>
     </div>
 
